@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { Form, Label, Input, Button } from './Phonebook.styled';
+import { Form, Label, Input, Button } from './ContactsForm.styled';
 import { useDispatch, useSelector } from 'react-redux';
-import { getContacts } from 'redux/selector';
+import { getContacts } from 'redux/contacts/selector';
 import { nanoid } from 'nanoid';
-import { addContact } from 'redux/operations';
+import { addContact } from 'redux/contacts/operations';
 
 export const Phonebook = () => {
   const [name, setName] = useState('');
