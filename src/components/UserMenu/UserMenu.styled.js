@@ -12,7 +12,7 @@ export const UserName = styled.p`
   font-weight: 500;
   font-size: 15px;
   line-height: 1.5;
-  color: white;
+  color: grey;
   margin-right: 10px;
 `;
 
