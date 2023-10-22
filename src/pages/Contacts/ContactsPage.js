@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getContacts } from 'redux/contacts/selector';
 import { fetchContacts } from 'redux/contacts/operations';
 
-export const App = () => {
+const ContactsPage = () => {
   const dispatch = useDispatch();
   const contactList = useSelector(getContacts);
 
@@ -24,3 +24,5 @@ export const App = () => {
     </Wrapper>
   );
 };
+
+export default ContactsPage;
