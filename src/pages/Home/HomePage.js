@@ -1,8 +1,10 @@
+import { Wrapper, Title } from './HomePage.styled';
+
 const HomePage = () => {
   return (
-    <div>
-      <h2>Welcom on PhoneBook page!</h2>
-    </div>
+    <Wrapper>
+      <Title>Welcom on PhoneBook page!</Title>
+    </Wrapper>
   );
 };
 export default HomePage;
